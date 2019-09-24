@@ -9,6 +9,9 @@ body, html, .ox {
   font: normal 12px/180% "Microsoft YaHei";
   -webkit-overflow-scrolling: touch;
   position: relative;
+  
+}
+.ox {
   background-color: #d42c1b;
 }
 html {

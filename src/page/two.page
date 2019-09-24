@@ -257,31 +257,31 @@
 .so-1 {
   position: absolute;
   left: 618px;
-  top: 148px;
+  top: 190px;
   z-index: 17;
 }
 .so-11 {
   position: absolute;
   left: 552px;
-  top: 84px;
+  top: 114px;
   z-index: 7;
 }
 .so-10 {
   position: absolute;
   left: 660px;
-  top: 164px;
+  top: 194px;
   z-index: 8;
 }
 .so-9 {
   position: absolute;
   left: 37px;
-  top: 278px;
+  top: 308px;
   z-index: 9;
 }
 .so-8 {
   position: absolute;
   left: 189px;
-  top: 291px;
+  top: 321px;
   z-index: 10;
   width: 365px;
   height: 115px;
@@ -295,7 +295,7 @@
 .so-7 {
   position: absolute;
   left: 0;
-  top: 475px;
+  top: 505px;
   z-index: 11;
   width: 100%;
   line-height: 40px;
@@ -307,7 +307,7 @@
 .so-6 {
   position: absolute;
   left: 49px;
-  top: 527px;
+  top: 557px;
   z-index: 12;
   line-height: 38px;
   width: 653px;
@@ -323,7 +323,7 @@ img {
 .so-5 {
   position: absolute;
   left: 600px;
-  top: 695px;
+  top: 725px;
   z-index: 13;
   width: 116px;
   height: 66px;
@@ -336,13 +336,13 @@ img {
 .so-2 {
   position: absolute;
   left: 49px;
-  top: 777px;
+  top: 807px;
   z-index: 16;
 }
 .so-3 {
   position: absolute;
   left: 0;
-  top: 1174px;
+  top: 1204px;
   z-index: 15;
   width: 100%;
   line-height: 36px;
@@ -354,13 +354,13 @@ img {
 .so-15 {
   position: absolute;
   left: 604px;
-  top: 1283px;
+  top: 1313px;
   z-index: 3;
 }
 .so-16 {
   position: absolute;
   left: 0px;
-  top: 1103px;
+  top: 1133px;
   z-index: 2;
 }
 .menu-box {
@@ -371,13 +371,14 @@ img {
   font-size: 26px;
   line-height: 37px;
   padding: 10px;
-  top: 190px;
+  top: 220px;
   right: -330px;
+  overflow: auto;
   word-break: break-all;
   background-color: #c6281a;
   transition: right 0.5s linear;
   .menu {
-    padding: 30px;
+    padding: 10px 30px;
     border: 1px solid #fcca99;
   }
   li {
@@ -399,7 +400,7 @@ img {
 }
 .logo {
   position: absolute;
-  top: 165px;
+  top: 195px;
   left: 117px;
 }
 </style>
