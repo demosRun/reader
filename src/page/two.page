@@ -1,0 +1,405 @@
+<template lang="pug">
+.two
+  img.soulless.so-12.item-12(width="670", height="231", src="@|two-12.png|")
+  img.soulless.so-1.item-1(width="92", height="92", src="@|two-1.png|", :tap="showMenu")
+  img.soulless.so-11.item-11(width="108", height="108", src="@|two-11.png|")
+  img.soulless.so-10.item-10(width="70", height="70", src="@|two-10.png|")
+  
+  img.soulless.so-15.item-15(width="89", height="77", src="@|two-15.png|")
+  img.soulless.so-16.item-16(width="750", height="521", src="@|two-16.png|")
+  //- 人民网logo
+  img.logo(src="@|logo.png|")
+  //- 内容区域
+  .content-box(tap="hideMenu")
+    img.soulless.so-9.item-9(width="679", height="180", src="@|two-9.png|")
+    p.soulless.so-8.item-8
+    p.soulless.so-7.item-7
+    p.soulless.so-6.item-6
+    a.soulless.so-5.item-5 详情
+    img.soulless.so-2.item-2(width="653", height="387")
+    p.soulless.so-3.item-3 
+  //- 菜单
+  .menu-box
+    ul.menu
+  //- 填写区域
+  ul.edit
+    li
+     .menu-text 武警新疆总队某特勤中队1
+     .main-title 武警新疆总队<br>第一特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石1
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队2
+     .main-title 武警新疆总队<br>第二特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石2
+     .text 行进的中国奔年是新中国成立70周年本次活动以守初心担使命踏征程跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909241415141890356570908.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队3
+     .main-title 武警新疆总队<br>第三特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石3
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240720306651474015532.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队4
+     .main-title 武警新疆总队<br>第四特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石4
+     .text 行进的中国奔跑的力量。2019年和祖国一同奔跑为主题，鼓励人们展是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909241352575189327426037.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队5
+     .main-title 武警新疆总队<br>第五特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石5
+     .text 行进的中国奔跑的奔跑为主题，鼓励人们展示新力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 最后一页<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 最后一页<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 最后一页<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      showMenu: false,
+      nowIndex: 0
+    },
+    created: function () {
+      owo.tool.touch({
+        el: this.$el,
+        end: (e) => {
+          
+          if (e.swipe[1] < -100) {
+            // 判断是否到了最后
+            if (this.data.nowIndex < this.data.number - 1) {
+              this.change(++this.data.nowIndex)
+            } else {
+              owo.tool.toast('已经到最后了!', 30)
+            }
+          } else if (e.swipe[1] > 100) {
+            console.log(this.data.nowIndex)
+            if (this.data.nowIndex < 1) {
+              owo.go('one', 'moveToBottom', 'scaleUp', 'moveToTop', 'scaleUp', true)
+            } else {
+              this.change(--this.data.nowIndex)
+            }
+          }
+        }
+      })
+      setTimeout(() => {
+        this.change(0)
+      }, 0)
+      owo.tool.animate('flipInY', owo.query('.so-1')[0], 1000)
+    },
+    show: function () {
+      if (this.data.isOk) return
+      
+      this.data.isOk = true
+      // 生成菜单
+      let menu = ''
+      const menuText = owo.query('.edit li .menu-text')
+      this.data.number = menuText.length
+      for (const key in menuText) {
+        if (menuText.hasOwnProperty(key)) {
+          const element = menuText[key]
+          menu += `<li ontouchstart="owo.script.two.change(${key})" ind="${key}">${element.innerHTML}</li>`
+        }
+      }
+      menu += `<li class="home" ontouchstart="owo.script.two.toHome()">首页</li>`
+      owo.query('.menu-box .menu')[0].innerHTML = menu
+      setTimeout(() => {
+        console.log('生成')
+        _owo.handlePage(this, this.$el)
+      }, 1000)
+    },
+    showMenu: function () {
+      if (this.data.showMenu) {
+        owo.query('.menu-box')[0].style.right = '-330px'
+        this.data.showMenu = false
+      } else {
+        owo.query('.menu-box')[0].style.right = '0px'
+        this.data.showMenu = true
+      }
+    },
+    toHome: function () {
+      this.hideMenu()
+      setTimeout(() => {
+        owo.go('one', 'moveToBottom', 'scaleUp', 'moveToTop', 'scaleUp', true)
+      }, 0)
+      
+    },
+    hideMenu: function () {
+      if (this.data.showMenu) {
+        owo.query('.menu-box')[0].style.right = '-330px'
+        this.data.showMenu = false
+      }
+    },
+    change: function (ind) {
+      this.data.nowIndex = parseInt(ind)
+      owo.query('.content-box')[0].style.opacity = '0'
+      setTimeout(() => {
+        owo.query('.so-8')[0].innerHTML = owo.query('.edit li .main-title')[ind].innerHTML
+        owo.query('.so-7')[0].innerHTML = owo.query('.edit li .title')[ind].innerHTML
+        owo.query('.so-2')[0].src = owo.query('.edit li .img')[ind].innerText
+        owo.query('.so-3 ')[0].innerHTML = owo.query('.edit li .info')[ind].innerHTML
+        owo.query('.so-5 ')[0].href = owo.query('.edit li .link')[ind].innerText
+        owo.query('.so-6 ')[0].innerHTML = owo.query('.edit li .text')[ind].innerText
+        setTimeout(() => {
+          owo.query('.content-box')[0].style.opacity = '1'
+        }, 0)
+      }, 300)
+      this.hideMenu()
+      // 清除所有菜单活跃状态
+      owo.query('.menu-box .menu li').forEach(element => {
+        element.classList.remove('active')
+      })
+      owo.query('.menu-box .menu li')[ind].classList.add('active')
+      // owo.query('.menu-box .menu li')[0].classList.add('active')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.content-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s linear;
+}
+.so-12 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 6;
+}
+.so-1 {
+  position: absolute;
+  left: 618px;
+  top: 148px;
+  z-index: 17;
+}
+.so-11 {
+  position: absolute;
+  left: 552px;
+  top: 84px;
+  z-index: 7;
+}
+.so-10 {
+  position: absolute;
+  left: 660px;
+  top: 164px;
+  z-index: 8;
+}
+.so-9 {
+  position: absolute;
+  left: 37px;
+  top: 278px;
+  z-index: 9;
+}
+.so-8 {
+  position: absolute;
+  left: 189px;
+  top: 291px;
+  z-index: 10;
+  width: 365px;
+  height: 115px;
+  font-size: 43px;
+  letter-spacing: 6px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 58px;
+  font-weight: bold;
+}
+.so-7 {
+  position: absolute;
+  left: 0;
+  top: 475px;
+  z-index: 11;
+  width: 100%;
+  line-height: 40px;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+.so-6 {
+  position: absolute;
+  left: 49px;
+  top: 527px;
+  z-index: 12;
+  line-height: 38px;
+  width: 653px;
+  height: 150px;
+  font-size: 26px;
+  color: #ffffff;
+  text-align: justify;
+}
+img {
+  user-select: none;
+}
+
+.so-5 {
+  position: absolute;
+  left: 600px;
+  top: 695px;
+  z-index: 13;
+  width: 116px;
+  height: 66px;
+  text-align: center;
+  color: #ca1514;
+  font-size: 24px;
+  line-height: 50px;
+  background-image: url('@|two-4.png|');
+}
+.so-2 {
+  position: absolute;
+  left: 49px;
+  top: 777px;
+  z-index: 16;
+}
+.so-3 {
+  position: absolute;
+  left: 0;
+  top: 1174px;
+  z-index: 15;
+  width: 100%;
+  line-height: 36px;
+  font-family: 'FZLTHJW--GB1-0';
+  font-size: 27px;
+  color: #ffffff;
+  text-align: center;
+}
+.so-15 {
+  position: absolute;
+  left: 604px;
+  top: 1283px;
+  z-index: 3;
+}
+.so-16 {
+  position: absolute;
+  left: 0px;
+  top: 1103px;
+  z-index: 2;
+}
+.menu-box {
+  position: absolute;
+  z-index: 999;
+  color: #fcca99;
+  width: 300px;
+  font-size: 26px;
+  line-height: 37px;
+  padding: 10px;
+  top: 190px;
+  right: -330px;
+  word-break: break-all;
+  background-color: #c6281a;
+  transition: right 0.5s linear;
+  .menu {
+    padding: 30px;
+    border: 1px solid #fcca99;
+  }
+  li {
+    cursor: pointer;
+  }
+  .active {
+    color: white;
+  }
+  .home {
+    font-size: 44px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+}
+.edit {
+  display: none;
+}
+.logo {
+  position: absolute;
+  top: 165px;
+  left: 117px;
+}
+</style>

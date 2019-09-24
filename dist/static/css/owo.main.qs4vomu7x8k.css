@@ -1,0 +1,335 @@
+body, html, .ox {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+[template="one"] .so-0 {
+  position: absolute;
+  left: 105px;
+  top: 194px;
+  z-index: 4;
+}
+
+[template="one"] .so-1 {
+  position: absolute;
+  left: 99px;
+  top: 733px;
+  z-index: 3;
+  width: 550px;
+  height: 400px;
+  font-size: 27px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: justify;
+  overflow: auto;
+}
+
+[template="one"] .so-15 {
+  position: absolute;
+  left: 604px;
+  top: 1243px;
+  z-index: 3;
+}
+
+[template="one"] .so-16 {
+  position: absolute;
+  left: 0px;
+  top: 1063px;
+  z-index: 2;
+}
+
+[template="one"] .so-1-2 {
+  position: absolute;
+  left: 114px;
+  top: 225px;
+  z-index: 1;
+}
+
+[template="one"] .so-4 {
+  position: absolute;
+  left: 99px;
+  top: 684px;
+  z-index: 2;
+}
+
+[template="one"] .so-12 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 6;
+}
+
+[template="one"] .so-11 {
+  position: absolute;
+  left: 552px;
+  top: 84px;
+  z-index: 7;
+}
+
+[template="one"] .so-10 {
+  position: absolute;
+  left: 660px;
+  top: 164px;
+  z-index: 8;
+}
+
+[template="one"] .top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 10%;
+  z-index: 9;
+  -webkit-animation: mouseMove 1.5s ease infinite;
+          animation: mouseMove 1.5s ease infinite;
+}
+
+@-webkit-keyframes mouseMove {
+  0% {
+    transform: translate3d(0px, 0px, 0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(0px, -40px, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes mouseMove {
+  0% {
+    transform: translate3d(0px, 0px, 0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(0px, -40px, 0);
+    opacity: 1;
+  }
+}
+[template="two"] .content-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s linear;
+}
+
+[template="two"] .so-12 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 6;
+}
+
+[template="two"] .so-1 {
+  position: absolute;
+  left: 618px;
+  top: 148px;
+  z-index: 17;
+}
+
+[template="two"] .so-11 {
+  position: absolute;
+  left: 552px;
+  top: 84px;
+  z-index: 7;
+}
+
+[template="two"] .so-10 {
+  position: absolute;
+  left: 660px;
+  top: 164px;
+  z-index: 8;
+}
+
+[template="two"] .so-9 {
+  position: absolute;
+  left: 37px;
+  top: 278px;
+  z-index: 9;
+}
+
+[template="two"] .so-8 {
+  position: absolute;
+  left: 189px;
+  top: 291px;
+  z-index: 10;
+  width: 365px;
+  height: 115px;
+  font-size: 43px;
+  letter-spacing: 6px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 58px;
+  font-weight: bold;
+}
+
+[template="two"] .so-7 {
+  position: absolute;
+  left: 0;
+  top: 475px;
+  z-index: 11;
+  width: 100%;
+  line-height: 40px;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+[template="two"] .so-6 {
+  position: absolute;
+  left: 49px;
+  top: 527px;
+  z-index: 12;
+  line-height: 38px;
+  width: 653px;
+  height: 150px;
+  font-size: 26px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+[template="two"] img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+[template="two"] .so-5 {
+  position: absolute;
+  left: 600px;
+  top: 695px;
+  z-index: 13;
+  width: 116px;
+  height: 66px;
+  text-align: center;
+  color: #ca1514;
+  font-size: 24px;
+  line-height: 50px;
+  background-image: url('../resource/two-4.png');
+}
+
+[template="two"] .so-2 {
+  position: absolute;
+  left: 49px;
+  top: 777px;
+  z-index: 16;
+}
+
+[template="two"] .so-3 {
+  position: absolute;
+  left: 0;
+  top: 1174px;
+  z-index: 15;
+  width: 100%;
+  line-height: 36px;
+  font-family: 'FZLTHJW--GB1-0';
+  font-size: 27px;
+  color: #ffffff;
+  text-align: center;
+}
+
+[template="two"] .so-15 {
+  position: absolute;
+  left: 604px;
+  top: 1283px;
+  z-index: 3;
+}
+
+[template="two"] .so-16 {
+  position: absolute;
+  left: 0px;
+  top: 1103px;
+  z-index: 2;
+}
+
+[template="two"] .menu-box {
+  position: absolute;
+  z-index: 999;
+  color: #fcca99;
+  width: 300px;
+  font-size: 26px;
+  line-height: 37px;
+  padding: 10px;
+  top: 190px;
+  right: -330px;
+  word-break: break-all;
+  background-color: #c6281a;
+  transition: right 0.5s linear;
+}
+
+[template="two"] .menu-box .menu {
+  padding: 30px;
+  border: 1px solid #fcca99;
+}
+
+[template="two"] .menu-box li {
+  cursor: pointer;
+}
+
+[template="two"] .menu-box .active {
+  color: white;
+}
+
+[template="two"] .menu-box .home {
+  font-size: 44px;
+  line-height: 70px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+[template="two"] .edit {
+  display: none;
+}
+
+[template="two"] .logo {
+  position: absolute;
+  top: 165px;
+  left: 117px;
+}
