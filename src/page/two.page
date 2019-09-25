@@ -246,6 +246,7 @@
   height: 100%;
   top: 0;
   left: 0;
+  z-index: 99;
   transition: opacity 0.3s linear;
 }
 .so-12 {
@@ -311,10 +312,11 @@
   z-index: 12;
   line-height: 38px;
   width: 653px;
-  height: 150px;
+  height: 160px;
   font-size: 26px;
   color: #ffffff;
   text-align: justify;
+  overflow: auto;
 }
 img {
   user-select: none;

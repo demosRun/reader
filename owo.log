@@ -1,65 +1,65 @@
-18:53:34.527 INFO  --------------------------- 开始编译 --------------------------- 
-18:53:34.527 INFO  程序运行目录: C:\Users\my\Documents\GitHub\reader 
-18:53:34.527 INFO  首次启动! 
-18:53:34.527 INFO  生成版本号: hyw2cn89kjh 
-18:53:34.532 INFO  清理资源文件夹: C:\Users\my\Documents\GitHub\reader\dist\static 
-18:53:34.532 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\reader\dist\static 
-18:53:34.533 INFO  创建文件夹: C:\Users\my\Documents\GitHub\reader\dist\static 
-18:53:34.533 INFO  读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html 
-18:53:34.533 DEBUG 读取网页标题: {TAG_14226_TAG} 
-18:53:34.533 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
-18:53:34.534 DEBUG 模块 one 因名称重复被重命名为 one0 
-18:53:34.534 INFO  开始处理模块: one 
-18:53:35.022 DEBUG 发现 keyframes 规则: mouseMove 
-18:53:35.023 DEBUG 缓存模板: one./src/page/one.page 
-18:53:35.023 DEBUG 模板one处理用时: 489 毫秒! 
-18:53:35.023 DEBUG 模块 two 因名称重复被重命名为 two0 
-18:53:35.023 INFO  开始处理模块: two 
-18:53:35.134 DEBUG 缓存模板: two./src/page/two.page 
-18:53:35.135 DEBUG 模板two处理用时: 112 毫秒! 
-18:53:35.136 INFO  文件夹不存在: C:/Users/my/Documents/GitHub/reader/dist/static/resource 
-18:53:35.136 INFO  创建文件夹: C:/Users/my/Documents/GitHub/reader/dist/static/resource 
-18:53:35.137 DEBUG 处理资源: ["C:/Users/my/Documents/GitHub/reader/src/resource/two-4.png"] 
-18:53:35.137 DEBUG 资源目录: C:/Users/my/Documents/GitHub/reader/dist/static/resource 
-18:53:35.139 DEBUG css中的资源处理完毕! 
-18:53:35.139 DEBUG 使用postcss处理样式，使用了1个插件! 
-18:53:35.194 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\reader\dist\static\css 
-18:53:35.194 INFO  创建文件夹: C:\Users\my\Documents\GitHub\reader\dist\static\css 
-18:53:35.194 INFO  开始处理附属css中的资源 
-18:53:35.195 INFO  附属css中的资源处理完毕! 
-18:53:35.195 INFO  处理字体:{} 
-18:53:35.203 INFO  使用postcss处理完毕! 用时: 64 毫秒 
-18:53:35.203 DEBUG 需要经过特殊处理的css: [["[template=\"one\"] .one:",".one[template=\"one\"]:"],["[template=\"one\"] .one ",".one[template=\"one\"] "],["[template=\"one\"] .one{",".one[template=\"one\"]{"],["[template=\"one\"] div:","div[template=\"one\"]:"],["[template=\"one\"] div ","div[template=\"one\"] "],["[template=\"one\"] div{","div[template=\"one\"]{"],["[template=\"two\"] .two:",".two[template=\"two\"]:"],["[template=\"two\"] .two ",".two[template=\"two\"] "],["[template=\"two\"] .two{",".two[template=\"two\"]{"],["[template=\"two\"] div:","div[template=\"two\"]:"],["[template=\"two\"] div ","div[template=\"two\"] "],["[template=\"two\"] div{","div[template=\"two\"]{"]] 
-18:53:35.204 INFO  正在处理script! 
-18:53:35.205 INFO  工程中包含多个页面! 
-18:53:35.205 INFO  包含有页面切换动画! 
-18:53:35.205 INFO  动画列表: moveToTop,scaleUp,moveToBottom 
-18:53:35.207 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\reader\dist\static\js 
-18:53:35.207 INFO  创建文件夹: C:\Users\my\Documents\GitHub\reader\dist\static\js 
-18:53:36.084 INFO  js中的资源处理完毕! 
-18:53:36.084 DEBUG 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"main","src":"./src/main.js","resource":true}] 
-18:53:36.085 DEBUG 外部脚本数量: 2 
-18:53:36.085 DEBUG 处理脚本: jquery1.11.0 
-18:53:36.085 DEBUG 网络脚本: jquery1.11.0 
-18:53:36.085 DEBUG 处理脚本: main 
-18:53:36.085 INFO  读取文件: C:\Users\my\Documents\GitHub\reader\src\main.js 
-18:53:36.085 DEBUG 输出scriptData 
-18:53:36.086 INFO  写文件: C:\Users\my\Documents\GitHub\reader\dist\static\css\owo.animation.hyw2cn89kjh.css 
-18:53:36.087 INFO  写文件: C:\Users\my\Documents\GitHub\reader\dist\static\css\owo.animate.hyw2cn89kjh.css 
-18:53:36.087 DEBUG 准备输出html! 
-18:53:36.088 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/reader/src/resource/two-12.png 
-18:53:36.088 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/reader/src/resource/two-11.png 
-18:53:36.088 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/reader/src/resource/two-10.png 
-18:53:36.088 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/reader/src/resource/two-15.png 
-18:53:36.088 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/reader/src/resource/two-16.png 
-18:53:36.088 DEBUG 处理资源: ["C:/Users/my/Documents/GitHub/reader/src/resource/one-2-1.png","C:/Users/my/Documents/GitHub/reader/src/resource/one-2-4.png","C:/Users/my/Documents/GitHub/reader/src/resource/one-0.png","C:/Users/my/Documents/GitHub/reader/src/resource/two-15.png","C:/Users/my/Documents/GitHub/reader/src/resource/two-16.png","C:/Users/my/Documents/GitHub/reader/src/resource/two-12.png","C:/Users/my/Documents/GitHub/reader/src/resource/two-11.png","C:/Users/my/Documents/GitHub/reader/src/resource/two-10.png","C:/Users/my/Documents/GitHub/reader/src/resource/two-1.png","C:/Users/my/Documents/GitHub/reader/src/resource/logo.png","C:/Users/my/Documents/GitHub/reader/src/resource/two-9.png"] 
-18:53:36.088 DEBUG 资源目录: C:/Users/my/Documents/GitHub/reader/dist/static/resource 
-18:53:36.089 DEBUG 开始美化html 
-18:53:36.138 INFO  写入文件: C:\Users\my\Documents\GitHub\reader\dist\static\css\owo.main.hyw2cn89kjh.css 
-18:53:36.138 INFO  文件写出成功! 
-18:53:36.138 INFO  主要逻辑文件写出成功! 
-18:53:36.138 INFO  animation文件写出成功! 
-18:53:36.140 INFO  读取成功: C:\Users\my\Documents\GitHub\reader\src\main.css 
-18:53:36.141 INFO  读取成功: C:\Users\my\Documents\GitHub\reader\src\main.js 
-18:53:36.240 INFO  写入文件: C:\Users\my\Documents\GitHub\reader\dist\static\css\main.css 
-18:53:36.240 INFO  写入文件: C:\Users\my\Documents\GitHub\reader\dist\static\js\main.js 
+08:41:31.177 INFO  --------------------------- 开始编译 --------------------------- 
+08:41:31.177 INFO  程序运行目录: D:\work\reader 
+08:41:31.177 INFO  首次启动! 
+08:41:31.177 INFO  生成版本号: 59488lo5mry 
+08:41:31.187 INFO  清理资源文件夹: D:\work\reader\dist\static 
+08:41:31.187 INFO  文件夹不存在: D:\work\reader\dist\static 
+08:41:31.187 INFO  创建文件夹: D:\work\reader\dist\static 
+08:41:31.187 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+08:41:31.188 DEBUG 读取网页标题: {TAG_14226_TAG} 
+08:41:31.188 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+08:41:31.189 DEBUG 模块 one 因名称重复被重命名为 one0 
+08:41:31.189 INFO  开始处理模块: one 
+08:41:31.587 DEBUG 发现 keyframes 规则: mouseMove 
+08:41:31.587 DEBUG 缓存模板: one./src/page/one.page 
+08:41:31.587 DEBUG 模板one处理用时: 399 毫秒! 
+08:41:31.588 DEBUG 模块 two 因名称重复被重命名为 two0 
+08:41:31.588 INFO  开始处理模块: two 
+08:41:31.682 DEBUG 缓存模板: two./src/page/two.page 
+08:41:31.682 DEBUG 模板two处理用时: 94 毫秒! 
+08:41:31.683 INFO  文件夹不存在: D:/work/reader/dist/static/resource 
+08:41:31.684 INFO  创建文件夹: D:/work/reader/dist/static/resource 
+08:41:31.685 DEBUG 处理资源: ["D:/work/reader/src/resource/two-4.png"] 
+08:41:31.685 DEBUG 资源目录: D:/work/reader/dist/static/resource 
+08:41:31.686 DEBUG css中的资源处理完毕! 
+08:41:31.686 DEBUG 使用postcss处理样式，使用了1个插件! 
+08:41:31.730 INFO  文件夹不存在: D:\work\reader\dist\static\css 
+08:41:31.730 INFO  创建文件夹: D:\work\reader\dist\static\css 
+08:41:31.730 INFO  开始处理附属css中的资源 
+08:41:31.731 INFO  附属css中的资源处理完毕! 
+08:41:31.731 INFO  处理字体:{} 
+08:41:31.738 INFO  使用postcss处理完毕! 用时: 52 毫秒 
+08:41:31.738 DEBUG 需要经过特殊处理的css: [["[template=\"one\"] .one:",".one[template=\"one\"]:"],["[template=\"one\"] .one ",".one[template=\"one\"] "],["[template=\"one\"] .one{",".one[template=\"one\"]{"],["[template=\"one\"] div:","div[template=\"one\"]:"],["[template=\"one\"] div ","div[template=\"one\"] "],["[template=\"one\"] div{","div[template=\"one\"]{"],["[template=\"two\"] .two:",".two[template=\"two\"]:"],["[template=\"two\"] .two ",".two[template=\"two\"] "],["[template=\"two\"] .two{",".two[template=\"two\"]{"],["[template=\"two\"] div:","div[template=\"two\"]:"],["[template=\"two\"] div ","div[template=\"two\"] "],["[template=\"two\"] div{","div[template=\"two\"]{"]] 
+08:41:31.739 INFO  正在处理script! 
+08:41:31.740 INFO  工程中包含多个页面! 
+08:41:31.741 INFO  包含有页面切换动画! 
+08:41:31.741 INFO  动画列表: moveToTop,scaleUp,moveToBottom 
+08:41:31.743 INFO  文件夹不存在: D:\work\reader\dist\static\js 
+08:41:31.743 INFO  创建文件夹: D:\work\reader\dist\static\js 
+08:41:32.462 INFO  js中的资源处理完毕! 
+08:41:32.462 DEBUG 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"main","src":"./src/main.js","resource":true}] 
+08:41:32.462 DEBUG 外部脚本数量: 2 
+08:41:32.462 DEBUG 处理脚本: jquery1.11.0 
+08:41:32.462 DEBUG 网络脚本: jquery1.11.0 
+08:41:32.462 DEBUG 处理脚本: main 
+08:41:32.462 INFO  读取文件: D:\work\reader\src\main.js 
+08:41:32.462 DEBUG 输出scriptData 
+08:41:32.463 INFO  写文件: D:\work\reader\dist\static\css\owo.animation.59488lo5mry.css 
+08:41:32.465 INFO  写文件: D:\work\reader\dist\static\css\owo.animate.59488lo5mry.css 
+08:41:32.465 DEBUG 准备输出html! 
+08:41:32.466 DEBUG 忽略文件: D:/work/reader/src/resource/two-12.png 
+08:41:32.466 DEBUG 忽略文件: D:/work/reader/src/resource/two-11.png 
+08:41:32.466 DEBUG 忽略文件: D:/work/reader/src/resource/two-10.png 
+08:41:32.466 DEBUG 忽略文件: D:/work/reader/src/resource/two-15.png 
+08:41:32.466 DEBUG 忽略文件: D:/work/reader/src/resource/two-16.png 
+08:41:32.466 DEBUG 处理资源: ["D:/work/reader/src/resource/one-2-1.png","D:/work/reader/src/resource/one-2-4.png","D:/work/reader/src/resource/one-0.png","D:/work/reader/src/resource/two-15.png","D:/work/reader/src/resource/two-16.png","D:/work/reader/src/resource/two-12.png","D:/work/reader/src/resource/two-11.png","D:/work/reader/src/resource/two-10.png","D:/work/reader/src/resource/two-1.png","D:/work/reader/src/resource/logo.png","D:/work/reader/src/resource/two-9.png"] 
+08:41:32.466 DEBUG 资源目录: D:/work/reader/dist/static/resource 
+08:41:32.467 DEBUG 开始美化html 
+08:41:32.536 INFO  主要逻辑文件写出成功! 
+08:41:32.536 INFO  animation文件写出成功! 
+08:41:32.536 INFO  文件写出成功! 
+08:41:32.536 INFO  写入文件: D:\work\reader\dist\static\css\owo.main.59488lo5mry.css 
+08:41:32.539 INFO  读取成功: D:\work\reader\src\main.css 
+08:41:32.539 INFO  读取成功: D:\work\reader\src\main.js 
+08:41:32.718 INFO  写入文件: D:\work\reader\dist\static\css\main.css 
+08:41:32.718 INFO  写入文件: D:\work\reader\dist\static\js\main.js 
